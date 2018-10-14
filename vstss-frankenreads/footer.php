@@ -28,14 +28,6 @@
 						<li><a href="#" title="Frankenreads"><i class="icon-frankenreads"></i><span>Frankenreads</span></a></a></li>
 					</ul>
 					<p>&copy; 2018 Frankenreads VŠTSS. All rights reserved.</p>
-					<p>
-						<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'vsss-frankenreads' ) ); ?>"><?php
-							/* translators: %s: CMS name, i.e. WordPress. */
-							printf( esc_html__( 'Proudly powered by %s', 'vsss-frankenreads' ), 'WordPress' );
-						?></a><span class="sep"> | </span><?php
-							/* translators: 1: Theme name, 2: Theme author. */
-							printf( esc_html__( 'Theme: %1$s by %2$s.', 'vsss-frankenreads' ), 'vsss-frankenreads', '<a href="http://auxburgo.com/">Nemanja Cosovic</a>' );
-					?></p>
 				</div>
 			</footer>
 		</div>
