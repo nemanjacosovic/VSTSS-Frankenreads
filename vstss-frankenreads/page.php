@@ -139,5 +139,4 @@ get_header();
 					<div class="wrapper"></div>
 				</section>
 <?php
-get_sidebar();
 get_footer();

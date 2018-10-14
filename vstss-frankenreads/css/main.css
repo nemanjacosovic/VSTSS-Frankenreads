@@ -151,7 +151,7 @@ body {
     }
         #vstssfr-header-masthead {
             height: 910px;
-            background: url(../img/vstssfr-header-masthead-01.jpg)
+            background: url(../img/vstssfr-header-masthead-01.jpg) center center no-repeat #7c925b;
         }
             #vstssfr-header-masthead-logos {
                 top: 40px;
@@ -783,6 +783,8 @@ body {
 }
 a.button,
 button.button {
+    margin: 0;
+    padding: 0;
 	width: 154px;
 	height: 42px;
 	border: none;
