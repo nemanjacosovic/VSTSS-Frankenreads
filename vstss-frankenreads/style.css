@@ -1430,7 +1430,7 @@ textarea {
    ========================================================================== */
 
 body {
-    background: url(./img/temp.png) top center no-repeat;
+    background: url('./img/temp.png') top center no-repeat;
 }
 
 #vstss-frankenloader {
@@ -1452,7 +1452,7 @@ body {
         animation-name: loader;
         animation-duration: 3s;
         animation-iteration-count: infinite;
-        background: url('../img/logos/frankenreads-logo-white.svg') top center no-repeat;
+        background: url('./img/logos/frankenreads-logo-white.svg') top center no-repeat;
         background-size: 150px auto;
     }
     @keyframes loader {
@@ -1479,7 +1479,7 @@ body {
     }
         #vstssfr-header-masthead {
             height: 910px;
-            background: url(./img/vstssfr-header-masthead-01.jpg) center center no-repeat #7c925b;
+            background: url('./img/vstssfr-header-masthead-01.jpg') center center no-repeat #7c925b;
         }
             #vstssfr-header-masthead-logos {
                 top: 40px;
@@ -1496,7 +1496,7 @@ body {
                     left: 0;
                     width: 236px;
                     height: 104px;
-                    background: url(./img/logos/frankenreads-logo-complete-opt-white.svg) top center no-repeat;
+                    background: url('./img/logos/frankenreads-logo-complete-opt-white.svg') top center no-repeat;
                     background-size: 234px 104px;
                 }
                 #vstssfr-header-masthead-logos-vstss {
@@ -1504,7 +1504,7 @@ body {
                     width: 104px;
                     height: 104px;
                     position: absolute;
-                    background: url(./img/logos/vstss-logo-bw.png) top center no-repeat;
+                    background: url('./img/logos/vstss-logo-bw.png') top center no-repeat;
                     background-size: 104px 104px;
                 }
             #vstssfr-header-masthead-quote {
@@ -1558,7 +1558,7 @@ body {
                             width: 100%;
                             height: 100%;
                             display: block;
-                            background: url('../img/logos/frankenreads-logo-white.svg') 50% calc(50% - 8px) no-repeat;
+                            background: url('./img/logos/frankenreads-logo-white.svg') 50% calc(50% - 8px) no-repeat;
                             background-size: 40px auto;
                         }
                             #vstssfr-header-mainmenu li#logo:hover span {
@@ -1607,7 +1607,7 @@ body {
                             width: 126px;
                             height: 110px;
                             position: absolute;
-                            background: url(./img/hands/vstssfr-hand-icons-glow.png) bottom center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-glow.png') bottom center no-repeat;
                             background-size: 126px 110px;
                         }
                         #vstssfr-header-mainmenu a:hover:before {
@@ -1669,36 +1669,36 @@ body {
                         }
                         #vstssfr-header-mainmenu li:nth-child(1) a:after {
                             left: 35px;
-                            background: url(./img/hands/vstssfr-hand-icons-01.png) top center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-01.png') top center no-repeat;
                             background-size: 110px 126px;
                         }
                         #vstssfr-header-mainmenu li:nth-child(2) a:after {
                             left: 50%;
                             transform: translateX(-50%);
-                            background: url(./img/hands/vstssfr-hand-icons-02.png) top center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-02.png') top center no-repeat;
                             background-size: 110px 126px;
                         }
                         #vstssfr-header-mainmenu li:nth-child(3) a:after {
                             left: 50%;
                             transform: translateX(-50%);
-                            background: url(./img/hands/vstssfr-hand-icons-03.png) top center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-03.png') top center no-repeat;
                             background-size: 110px 126px;
                         }
                         #vstssfr-header-mainmenu li:nth-child(5) a:after {
                             left: 50%;
                             transform: translateX(-50%);
-                            background: url(./img/hands/vstssfr-hand-icons-04.png) top center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-04.png') top center no-repeat;
                             background-size: 110px 126px;
                         }
                         #vstssfr-header-mainmenu li:nth-child(6) a:after {
                             left: 50%;
                             transform: translateX(-50%);
-                            background: url(./img/hands/vstssfr-hand-icons-05.png) top center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-05.png') top center no-repeat;
                             background-size: 110px 126px;
                         }
                         #vstssfr-header-mainmenu li:nth-child(7) a:after {
                             left: 90px;
-                            background: url(./img/hands/vstssfr-hand-icons-06.png) top center no-repeat;
+                            background: url('./img/hands/vstssfr-hand-icons-06.png') top center no-repeat;
                             background-size: 110px 126px;
                         }
                         #vstssfr-header-mainmenu li a:hover:after {
@@ -1764,7 +1764,7 @@ body {
 		#vstssfr-main-events {
 			padding-bottom: 60px;
 			background: #9dae73;
-			background: url(./img/events-bg.jpg) top center no-repeat;
+			background: url('./img/events-bg.jpg') top center no-repeat;
 			background-size: cover;
 		}
 			#vstssfr-main-events h3 {}
@@ -1788,7 +1788,7 @@ body {
 						height: 130px;
 						position: absolute;
 						transition: all 250ms ease-in-out;
-						background: url(./img/logos/frankenreads-logo-green.svg) bottom center no-repeat;
+						background: url('./img/logos/frankenreads-logo-green.svg') bottom center no-repeat;
 						background-size: 86px auto;
 					}
 						.vstssfr-events-group-single:hover:after {
@@ -1877,7 +1877,7 @@ body {
 								bottom: 10px;
 								height: 40px;
 								position: absolute;
-								background: url(./img/logos/frankenreads-logo-green.svg) top center no-repeat;
+								background: url('./img/logos/frankenreads-logo-green.svg') top center no-repeat;
 								background-size: 26px auto;
 							}
 						#vstssfr-main-schedule-days-event ul {
@@ -1905,7 +1905,7 @@ body {
 		#vstssfr-main-subscribe {
 			margin-top: -40px;
 			padding: 0 0 84px 0;
-			background: url(./img/subscribe-bg.jpg) center center no-repeat;
+			background: url('./img/subscribe-bg.jpg') center center no-repeat;
 			background-size: cover;
 		}
 			#vstssfr-main-subscribe h3 {}
@@ -1956,7 +1956,7 @@ body {
 			width: 230px;
 			height: 105px;
 			margin: 0 auto;
-			background: url(./img/logos/frankenreads-logo-complete-opt-white.svg) top center no-repeat;
+			background: url('./img/logos/frankenreads-logo-complete-opt-white.svg') top center no-repeat;
 			background-size: 230px auto;
 		}
         ul#vstssfr-footer-partners {
@@ -2064,7 +2064,7 @@ body {
 						width: 33px;
 						height: 33px;
 						display: block;
-						background: url(./img/logos/frankenreads-logo-black.svg) center calc(50% - 2px) no-repeat;
+						background: url('./img/logos/frankenreads-logo-black.svg') center calc(50% - 2px) no-repeat;
 						background-size: auto 25px;
 					}
 
