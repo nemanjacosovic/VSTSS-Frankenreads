@@ -16,8 +16,8 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="profile" href="https://gmpg.org/xfn/11">
-		<link rel="stylesheet" href="<?php get_template_directory_uri() ?>/css/normalize.css">
-		<link rel="stylesheet" href="<?php get_template_directory_uri() ?>/css/main.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,900" rel="stylesheet">
 		<?php wp_head(); ?>
 	</head>
@@ -49,12 +49,6 @@
 				<!-- Main menu -->
 				<nav id="vstssfr-header-mainmenu">
 					<div class="wrapper">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu',
-						) );
-					?>
 						<ul>
 							<li class="text-left"><a href="#" title="#">Frankenreads</a></li>
 							<li class="text-center"><a href="#" title="#">Events</a></li>
