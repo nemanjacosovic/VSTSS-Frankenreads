@@ -20,14 +20,14 @@ get_header();
 						<div id="vstssfr-main-welcome-posters">
 							<div id="vstssfr-main-welcome-posters-two">
 								<div id="vstssfr-main-welcome-posters-two-top">
-									<img src="./img/welcome-frankenstein-book.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/welcome-frankenstein-book.jpg">
 								</div>
 								<div id="vstssfr-main-welcome-posters-two-bottom">
-									<img src="./img/welcome-frankenstein-castle.jpg">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/welcome-frankenstein-castle.jpg">
 								</div>
 							</div>
 							<div id="vstssfr-main-welcome-posters-solo">
-								<img src="./img/welcome-mary-shelley.jpg">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/welcome-mary-shelley.jpg">
 							</div>
 						</div>
 						<div id="vstssfr-main-welcome-content">
