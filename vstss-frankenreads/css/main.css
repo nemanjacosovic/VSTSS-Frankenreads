@@ -648,7 +648,12 @@ body {
 				#vstssfr-footer-partners li:last-child {
 					margin-right: 0;
 				}
-                #vstssfr-footer-partners img {}
+                #vstssfr-footer-partners img {
+                    height: 48px;
+                }
+                #vstssfr-footer-partners li:nth-child(2) img {
+                    height: 54px;
+                }
         #vstss-frankenreads footer p {
 			font-size: 18px;
 			color: #ffffff;
@@ -783,7 +788,6 @@ body {
 }
 a.button,
 button.button {
-    margin: 0;
     padding: 0;
 	width: 154px;
 	height: 42px;

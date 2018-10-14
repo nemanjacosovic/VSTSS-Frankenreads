@@ -396,7 +396,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -982,3 +982,1387 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+  /* Sections
+	 ========================================================================== */
+
+  /**
+   * Remove the margin in all browsers.
+   */
+
+  body {
+	margin: 0;
+  }
+
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+  h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+  }
+
+  /* Grouping content
+	 ========================================================================== */
+
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+  hr {
+	box-sizing: content-box; /* 1 */
+	height: 0; /* 1 */
+	overflow: visible; /* 2 */
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  pre {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+  }
+
+  /* Text-level semantics
+	 ========================================================================== */
+
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+
+  a {
+	background-color: transparent;
+  }
+
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+  abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
+  }
+
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+  b,
+  strong {
+	font-weight: bolder;
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  code,
+  kbd,
+  samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+  }
+
+  /**
+   * Add the correct font size in all browsers.
+   */
+
+  small {
+	font-size: 80%;
+  }
+
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+  sub,
+  sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+  }
+
+  sub {
+	bottom: -0.25em;
+  }
+
+  sup {
+	top: -0.5em;
+  }
+
+  /* Embedded content
+	 ========================================================================== */
+
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+
+  img {
+	border-style: none;
+  }
+
+  /* Forms
+	 ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+  }
+
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+  button,
+  input { /* 1 */
+	overflow: visible;
+  }
+
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+  button,
+  select { /* 1 */
+	text-transform: none;
+  }
+
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+	-webkit-appearance: button;
+  }
+
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+  }
+
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+  }
+
+  /**
+   * Correct the padding in Firefox.
+   */
+
+  fieldset {
+	padding: 0.35em 0.75em 0.625em;
+  }
+
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+  legend {
+	box-sizing: border-box; /* 1 */
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+  }
+
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+  progress {
+	vertical-align: baseline;
+  }
+
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+  textarea {
+	overflow: auto;
+  }
+
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+  [type="checkbox"],
+  [type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+  }
+
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+	height: auto;
+  }
+
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+  [type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+  }
+
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+  [type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+  }
+
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+  ::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+  }
+
+  /* Interactive
+	 ========================================================================== */
+
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+  details {
+	display: block;
+  }
+
+  /*
+   * Add the correct display in all browsers.
+   */
+
+  summary {
+	display: list-item;
+  }
+
+  /* Misc
+	 ========================================================================== */
+
+  /**
+   * Add the correct display in IE 10+.
+   */
+
+  template {
+	display: none;
+  }
+
+  /**
+   * Add the correct display in IE 10.
+   */
+
+  [hidden] {
+	display: none;
+  }
+
+
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+html, body {
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: url(./img/temp.png) top center no-repeat;
+}
+
+#vstss-frankenloader {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+    position: fixed;
+    background: #76851c;
+}
+    #vstss-frankenloader span {
+        top: 50%;
+        width: 250px;
+        height: 230px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        animation-name: loader;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        background: url('../img/logos/frankenreads-logo-white.svg') top center no-repeat;
+        background-size: 150px auto;
+    }
+    @keyframes loader {
+        0% {
+            transform: translateY(-50%) scale(0.7)
+        }
+        25% {
+            transform: translateY(-50%) scale(1)
+        }
+        50% {
+            transform: translateY(-50%) scale(0.7)
+        }
+        75% {
+            transform: translateY(-50%) scale(1)
+        }
+        100% {
+            transform: translateY(-50%) scale(0.7)
+        }
+    }
+
+#vstss-frankenreads {}
+    #vstss-frankenreads header {
+        /* background: #7c925b; */
+    }
+        #vstssfr-header-masthead {
+            height: 910px;
+            background: url(./img/vstssfr-header-masthead-01.jpg) center center no-repeat #7c925b;
+        }
+            #vstssfr-header-masthead-logos {
+                top: 40px;
+                left: 0;
+                right: 0;
+                position: absolute;
+            }
+                #vstssfr-header-masthead-logos h1 {
+                    font-size: 0;
+                    text-indent: -99999px;
+                }
+                #vstssfr-header-masthead-logos-frankenreads {
+                    position: absolute;
+                    left: 0;
+                    width: 236px;
+                    height: 104px;
+                    background: url(./img/logos/frankenreads-logo-complete-opt-white.svg) top center no-repeat;
+                    background-size: 234px 104px;
+                }
+                #vstssfr-header-masthead-logos-vstss {
+                    right: 0;
+                    width: 104px;
+                    height: 104px;
+                    position: absolute;
+                    background: url(./img/logos/vstss-logo-bw.png) top center no-repeat;
+                    background-size: 104px 104px;
+                }
+            #vstssfr-header-masthead-quote {
+                top: 300px;
+                width: 40%;
+                position: absolute;
+            }
+                #vstssfr-header-masthead-quote p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 48px;
+                    color: #eeffe0;
+                    font-weight: 900;
+                    line-height: 1.22em;
+                }
+                #vstssfr-header-masthead-quote h5 {
+                    font-size: 38px;
+                    font-weight: 200;
+                    color: #eeffe0;
+                    text-align: right;
+                    margin: 10px 0 0 0;
+                    padding: 0 35px 0 0;
+                }
+        #vstssfr-header-mainmenu {
+            background: #76851c;
+        }
+            #vstssfr-header-mainmenu ul {
+                margin: 0;
+                padding: 0;
+                display: grid;
+                list-style: none;
+                grid-template-columns: auto auto auto 90px auto auto auto;
+            }
+                #vstssfr-header-mainmenu li {
+                    margin: 0;
+                    padding: 0;
+                }
+                    #vstssfr-header-mainmenu li#logo {
+                        position: relative;
+                    }
+                        #vstssfr-header-mainmenu li#logo i {
+                            z-index: 100;
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            cursor: pointer;
+                            position: absolute;
+                        }
+                        #vstssfr-header-mainmenu li#logo span {
+                            z-index: 50;
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            background: url('../img/logos/frankenreads-logo-white.svg') 50% calc(50% - 8px) no-repeat;
+                            background-size: 40px auto;
+                        }
+                            #vstssfr-header-mainmenu li#logo:hover span {
+                                animation-name: fliplogo;
+                                animation-duration: 0.8s;
+                                animation-iteration-count: 1;
+                            }
+                            @keyframes fliplogo {
+                                0% {
+                                    transform: rotateY(0deg) scale(0.9);
+                                    transform-style: preserve-3d;
+                                }
+                                50% {
+                                    transform: rotateY(180deg) scale(0.8);
+                                    transform-style: preserve-3d;
+                                }
+                                100% {
+                                    opacity: 1;
+                                    transform: rotateY(0deg) scale(1);
+                                    transform-style: preserve-3d;
+                                }
+                            }
+                            #vstssfr-header-mainmenu li#logo h2 {
+                                display: none;
+                            }
+                    #vstssfr-header-mainmenu a {
+                        z-index: 10;
+                        height: 110px;
+                        display: block;
+                        font-size: 30px;
+                        color: #ffffff;
+                        font-weight: 400;
+                        overflow: hidden;
+                        line-height: 110px;
+                        position: relative;
+                        text-decoration: none;
+                        letter-spacing: 0.01em;
+                    }
+                        #vstssfr-header-mainmenu a:hover {
+                            text-shadow: 1px 1px 0 #000000;
+                        }
+                        #vstssfr-header-mainmenu a:before {
+                            top: 90px;
+                            z-index: -2;
+                            content: '';
+                            width: 126px;
+                            height: 110px;
+                            position: absolute;
+                            background: url(./img/hands/vstssfr-hand-icons-glow.png) bottom center no-repeat;
+                            background-size: 126px 110px;
+                        }
+                        #vstssfr-header-mainmenu a:hover:before {
+                            top: 0;
+                            animation-name: glow;
+                            animation-duration: 200ms;
+                            animation-iteration-count: 1;
+                            transition: top 350ms ease-in-out;
+                        }
+                            @keyframes glow {
+                                0% {
+                                    opacity: 0;
+                                }
+                                75% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 1;
+                                }
+                            }
+
+                        #vstssfr-header-mainmenu li:nth-child(1) a:before {
+                            left: 30px;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(2) a:before {
+                            left: 50%;
+                            transform: translateX(-50%)
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(3) a:before {
+                            left: 50%;
+                            transform: translateX(-50%)
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(5) a:before {
+                            left: 50%;
+                            transform: translateX(-50%)
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(6) a:before {
+                            left: 50%;
+                            transform: translateX(-50%)
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(7) a:before {
+                            left: 90px;
+                        }
+
+                        #vstssfr-header-mainmenu li:nth-child(1) a:after,
+                        #vstssfr-header-mainmenu li:nth-child(2) a:after,
+                        #vstssfr-header-mainmenu li:nth-child(3) a:after,
+                        #vstssfr-header-mainmenu li:nth-child(5) a:after,
+                        #vstssfr-header-mainmenu li:nth-child(6) a:after,
+                        #vstssfr-header-mainmenu li:nth-child(7) a:after {
+                            top: 94px;
+                            z-index: -1;
+                            content: '';
+                            width: 126px;
+                            height: 110px;
+                            display: block;
+                            position: absolute;
+                            transition: top 250ms ease-in-out;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(1) a:after {
+                            left: 35px;
+                            background: url(./img/hands/vstssfr-hand-icons-01.png) top center no-repeat;
+                            background-size: 110px 126px;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(2) a:after {
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background: url(./img/hands/vstssfr-hand-icons-02.png) top center no-repeat;
+                            background-size: 110px 126px;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(3) a:after {
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background: url(./img/hands/vstssfr-hand-icons-03.png) top center no-repeat;
+                            background-size: 110px 126px;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(5) a:after {
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background: url(./img/hands/vstssfr-hand-icons-04.png) top center no-repeat;
+                            background-size: 110px 126px;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(6) a:after {
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background: url(./img/hands/vstssfr-hand-icons-05.png) top center no-repeat;
+                            background-size: 110px 126px;
+                        }
+                        #vstssfr-header-mainmenu li:nth-child(7) a:after {
+                            left: 90px;
+                            background: url(./img/hands/vstssfr-hand-icons-06.png) top center no-repeat;
+                            background-size: 110px 126px;
+                        }
+                        #vstssfr-header-mainmenu li a:hover:after {
+                            top: 0;
+                        }
+
+
+    #vstss-frankenreads main {}
+        #vstssfr-main-welcome {
+			font-size: 0;
+			background: #ffffff;
+            padding: 65px 0 85px 0;
+        }
+            #vstssfr-main-welcome-posters {
+                width: 50%;
+                font-size: 0;
+                vertical-align: top;
+                display: inline-block;
+            }
+                #vstssfr-main-welcome-posters-two {
+					width: 50%;
+					vertical-align: top;
+					display: inline-block;
+				}
+                    #vstssfr-main-welcome-posters-two-top {}
+                    #vstssfr-main-welcome-posters-two-bottom {
+						margin-top: 18px;
+					}
+                #vstssfr-main-welcome-posters-solo {
+					width: 50%;
+					vertical-align: top;
+					display: inline-block;
+				}
+            #vstssfr-main-welcome-content {
+                width: 50%;
+                font-size: 0;
+                text-align: center;
+                vertical-align: top;
+                display: inline-block;
+            }
+                #vstssfr-main-welcome-content h3 {
+					padding: 0;
+                    font-size: 28px;
+                    font-weight: 600;
+					color: #76851c;
+					margin: 56px 0 0 0;
+                }
+                #vstssfr-main-welcome-content p {
+					margin: 0;
+					font-size: 16px;
+					color: #000000;
+					line-height: 28px;
+					padding: 15px 30px 0 30px;
+				}
+                #vstssfr-main-welcome-content ul {}
+                    #vstssfr-main-welcome-content li {
+						vertical-align: top;
+						margin: 55px 10px 0 10px;
+						display: inline-block;
+					}
+                        #vstssfr-main-welcome-content a {}
+
+		#vstssfr-main-events {
+			padding-bottom: 60px;
+			background: #9dae73;
+			background: url(./img/events-bg.jpg) top center no-repeat;
+			background-size: cover;
+		}
+			#vstssfr-main-events h3 {}
+			#vstssfr-main-events-group {
+				display: grid;
+				grid-column-gap: 60px;
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+				.vstssfr-events-group-single {
+					overflow: hidden;
+					position: relative;
+					padding: 30px 25px;
+					background: #ffffff;
+				}
+					.vstssfr-events-group-single:after {
+						opacity: 0.05;
+						content: '';
+						width: 86px;
+						right: 25px;
+						bottom: 30px;
+						height: 130px;
+						position: absolute;
+						transition: all 250ms ease-in-out;
+						background: url(./img/logos/frankenreads-logo-green.svg) bottom center no-repeat;
+						background-size: 86px auto;
+					}
+						.vstssfr-events-group-single:hover:after {
+							animation-delay: 0.1s;
+							animation-name: shakeit;
+							animation-duration: 0.5s;
+							animation-iteration-count: 1;
+							animation-fill-mode: forwards;
+						}
+						@keyframes shakeit {
+							0% {
+								bottom: 30px;
+								opacity: 0.05;
+							}
+							15% {
+								bottom: 15px;
+							}
+							30% {
+								bottom: 45px;
+							}
+							45% {
+								bottom: 20px;
+							}
+							60% {
+								bottom: 40px;
+							}
+							75% {
+								bottom: 25px;
+							}
+							90% {
+								bottom: 35px;
+							}
+							100% {
+								bottom: 30px;
+								opacity: 0.2;
+							}
+						}
+					.vstssfr-events-group-single-thumb {
+						height: 150px;
+						background: #bbbbbb;
+					}
+					.vstssfr-events-group-single p {
+						color: #424242;
+						padding: 10px 0 20px 0;
+					}
+					.vstssfr-events-group-single ul {
+						margin: 0;
+						padding: 0;
+						list-style: none;
+					}
+						.vstssfr-events-group-single li {
+							margin: 0;
+							font-weight: 600;
+							padding: 0 0 8px 0;
+						}
+					.vstssfr-events-group-single a {
+						margin: 65px 0 0 0;
+					}
+		#vstssfr-main-schedule {
+			padding-bottom: 84px;
+			background: #ffffff;
+		}
+			#vstssfr-main-schedule h3 {}
+				#vstssfr-main-schedule-days {
+					display: grid;
+					grid-column-gap: 120px;
+					grid-template-columns: 1fr 1fr;
+				}
+					#vstssfr-main-schedule-days-event {}
+						#vstssfr-main-schedule-days-event h4 {
+							margin: 0;
+							font-size: 26px;
+							color: #76851c;
+							font-weight: 600;
+							text-align: left;
+							position: relative;
+							padding: 0 0 12px 40px;
+							letter-spacing: 0.04em;
+							border-bottom: 2px solid #76851c;
+						}
+							#vstssfr-main-schedule-days-event h4:after {
+								opacity: 0.5;
+								right: 10px;
+								width: 26px;
+								content: '';
+								bottom: 10px;
+								height: 40px;
+								position: absolute;
+								background: url(./img/logos/frankenreads-logo-green.svg) top center no-repeat;
+								background-size: 26px auto;
+							}
+						#vstssfr-main-schedule-days-event ul {
+							margin: 0;
+							list-style: none;
+							padding: 34px 0 0 40px;
+						}
+							#vstssfr-main-schedule-days-event li {
+								margin: 0;
+								font-size: 22px;
+								line-height: 1em;
+								padding: 0 0 2px 0;
+							}
+								#vstssfr-main-schedule-days-event strong {
+									font-weight: 400;
+									position: relative;
+									padding: 0 0 0 30px;
+								}
+									#vstssfr-main-schedule-days-event span {
+										display: block;
+										color: #666666;
+										font-weight: 300;
+										padding: 8px 0 0 85px;
+									}
+		#vstssfr-main-subscribe {
+			margin-top: -40px;
+			padding: 0 0 84px 0;
+			background: url(./img/subscribe-bg.jpg) center center no-repeat;
+			background-size: cover;
+		}
+			#vstssfr-main-subscribe h3 {}
+			#vstssfr-main-subscribe p {
+				font-size: 24px;
+				color: #ffffff;
+				font-weight: 200;
+				text-align: center;
+				padding: 5px 0 0 0;
+				line-height: 1.3em;
+			}
+				#vstssfr-main-subscribe span {
+					display: block;
+				}
+			#vstssfr-main-subscribe form {
+				width: 740px;
+				margin: 40px auto 0 auto;
+				position: relative;
+				text-align: center;
+			}
+				#vstssfr-main-subscribe input {
+					opacity: 0.8;
+					width: 740px;
+					border: none;
+					height: 100px;
+					font-size: 28px;
+					font-weight: 600;
+					box-sizing: border-box;
+					padding: 0 200px 0 40px;
+				}
+				#vstssfr-main-subscribe button {
+					top: 50%;
+					right: 22px;
+					position: absolute;
+					transform: translateY(-50%);
+				}
+        #vstssfr-main-updates {}
+        #vstssfr-main-media {}
+        #vstssfr-main-joinus {}
+        #vstssfr-main-partners {}
+
+    #vstss-frankenreads footer {
+		text-align: center;
+		background: #414042;
+		padding: 65px 0 35px 0;
+	}
+        #vstssfr-footer-frankenreads {
+			width: 230px;
+			height: 105px;
+			margin: 0 auto;
+			background: url(./img/logos/frankenreads-logo-complete-opt-white.svg) top center no-repeat;
+			background-size: 230px auto;
+		}
+        ul#vstssfr-footer-partners {
+			margin: 0;
+			padding: 40px 0;
+			list-style: none;
+		}
+            #vstssfr-footer-partners li {
+				padding: 0;
+				margin: 0 35px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+				#vstssfr-footer-partners li:first-child {
+					margin-left: 0;
+				}
+				#vstssfr-footer-partners li:last-child {
+					margin-right: 0;
+				}
+                #vstssfr-footer-partners img {
+                    height: 48px;
+                }
+                #vstssfr-footer-partners li:nth-child(2) img {
+                    height: 54px;
+                }
+        #vstss-frankenreads footer p {
+			font-size: 18px;
+			color: #ffffff;
+		}
+			#vstss-frankenreads footer p span {
+				display: block;
+			}
+				#vstss-frankenreads footer p a {
+					color: #ffffff;
+					text-decoration: none;
+				}
+					#vstss-frankenreads footer p a:hover {
+						color: #efb86b;
+					}
+        ul#vstssfr-footer-socmed {
+			margin: 0;
+			font-size: 0;
+			padding: 20px 0;
+			list-style: none;
+		}
+            #vstssfr-footer-socmed li {
+				padding: 0;
+				margin: 0 10px;
+				text-align: center;
+				vertical-align: top;
+				display: inline-block;
+			}
+				#vstssfr-footer-socmed a {
+					z-index: 55;
+					width: 33px;
+					height: 33px;
+					display: block;
+					color: #000000;
+					line-height: 33px;
+					border-radius: 50%;
+					position: relative;
+					background: #efb86b;
+					text-decoration: none;
+				}
+					#vstssfr-footer-socmed a:before {
+						z-index: -1;
+						content: '';
+						width: 33px;
+						height: 33px;
+						display: block;
+						position: absolute;
+						border-radius: 50%;
+						background: #efb86b;
+					}
+						#vstssfr-footer-socmed a:hover:before {
+							animation-duration: 0.8s;
+							animation-name: poptheball;
+							animation-fill-mode: forwards;
+						}
+						@keyframes poptheball {
+							0% {
+								opacity: 0.0;
+								transform: scale(1)
+							}
+							25% {
+								opacity: 1;
+							}
+							80% {
+								opacity: 0;
+							}
+							100% {
+								opacity: 0;
+								transform: scale(2)
+							}
+						}
+					#vstssfr-footer-socmed a i {
+						font-size: 22px;
+					}
+					#vstssfr-footer-socmed a span {
+						font-size: 0;
+						text-indent: -99999px;
+					}
+					i.icon-frankenreads {
+						content: '';
+						width: 33px;
+						height: 33px;
+						display: block;
+						background: url(./img/logos/frankenreads-logo-black.svg) center calc(50% - 2px) no-repeat;
+						background-size: auto 25px;
+					}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.group-title,
+.group-title-alt {
+	margin: 0;
+	font-size: 50px;
+	padding: 48px 0;
+	color: #ffffff;
+	font-weight: 600;
+	text-align: center;
+}
+.group-title-alt {
+	color: #424242;
+}
+a.button,
+button.button {
+    padding: 0;
+	width: 154px;
+	height: 42px;
+	border: none;
+	display: block;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	line-height: 42px;
+	text-align: center;
+	background: #76851c;
+	text-decoration: none;
+}
+	a.button:hover,
+	button.button:hover {
+		color: #000000;
+		background: #dbe7b9;
+	}
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+@font-face {
+	font-family: 'fontello';
+	src: url('./font/fontello.eot?66524272');
+	src: url('./font/fontello.eot?66524272#iefix') format('embedded-opentype'),
+		 url('./font/fontello.woff2?66524272') format('woff2'),
+		 url('./font/fontello.woff?66524272') format('woff'),
+		 url('./font/fontello.ttf?66524272') format('truetype'),
+		 url('./font/fontello.svg?66524272#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+	  font-family: 'fontello';
+	  src: url('./font/fontello.svg?66524272#fontello') format('svg');
+	}
+  }
+  */
+
+   [class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+
+  .icon-ter:before { content: '\f309'; } /* '' */
+  .icon-ook:before { content: '\f30e'; } /* '' */
+  .icon-gram:before { content: '\f32d'; } /* '' */
