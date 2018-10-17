@@ -48,17 +48,17 @@
 				<nav id="vstssfr-header-mainmenu">
 					<div class="wrapper">
 						<ul>
-							<li class="text-left"><a href="#" title="#">Frankenreads</a></li>
-							<li class="text-center"><a href="#" title="#">Events</a></li>
-							<li class="text-center"><a href="#" title="#">Schedule</a></li>
+							<li class="text-left"><a href="#vstssfr-main-welcome" title="#">Frankenreads</a></li>
+							<li class="text-center"><a href="#vstssfr-main-events" title="#">Events</a></li>
+							<li class="text-center"><a href="#vstssfr-main-schedule" title="#">Schedule</a></li>
 							<li id="logo">
 								<i></i>
 								<span></span>
 								<h2>Frankenreads</h2>
 							</li>
-							<li class="text-center"><a href="#" title="#">Updates</a></li>
-							<li class="text-center"><a href="#" title="#">Media</a></li>
-							<li class="text-right"><a href="#" title="#">Join our team</a></li>
+							<li class="text-center"><a href="#vstssfr-main-updates" title="#">Updates</a></li>
+							<li class="text-center"><a href="#vstssfr-main-media" title="#">Media</a></li>
+							<li class="text-right"><a href="#vstssfr-main-joinus" title="#">Join our team</a></li>
 						</ul>
 					</div>
 				</nav>

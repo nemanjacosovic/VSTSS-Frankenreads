@@ -1429,9 +1429,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-    background: url('./img/temp.png') top center no-repeat;
-}
+body {}
 
 #vstss-frankenloader {
     top: 0;
@@ -1763,13 +1761,13 @@ body {
 
 		#vstssfr-main-events {
 			padding-bottom: 60px;
-			background: #9dae73;
-			background: url('./img/events-bg.jpg') top center no-repeat;
-			background-size: cover;
+			background: url('./img/events-bg.jpg') top center no-repeat #9eaf73;
+			background-size: contain;
 		}
 			#vstssfr-main-events h3 {}
 			#vstssfr-main-events-group {
 				display: grid;
+				grid-row-gap: 75px;
 				grid-column-gap: 60px;
 				grid-template-columns: 1fr 1fr 1fr;
 			}
@@ -1777,13 +1775,13 @@ body {
 					overflow: hidden;
 					position: relative;
 					padding: 30px 25px;
-					background: #ffffff;
+					background: rgba(255, 255, 255, 0.9);
 				}
 					.vstssfr-events-group-single:after {
-						opacity: 0.05;
 						content: '';
 						width: 86px;
 						right: 25px;
+						opacity: 0.2;
 						bottom: 30px;
 						height: 130px;
 						position: absolute;
@@ -1794,44 +1792,41 @@ body {
 						.vstssfr-events-group-single:hover:after {
 							animation-delay: 0.1s;
 							animation-name: shakeit;
-							animation-duration: 0.5s;
+							animation-duration: 0.4s;
 							animation-iteration-count: 1;
 							animation-fill-mode: forwards;
 						}
 						@keyframes shakeit {
 							0% {
-								bottom: 30px;
-								opacity: 0.05;
-							}
-							15% {
-								bottom: 15px;
-							}
-							30% {
-								bottom: 45px;
-							}
-							45% {
-								bottom: 20px;
-							}
-							60% {
-								bottom: 40px;
-							}
-							75% {
-								bottom: 25px;
-							}
-							90% {
-								bottom: 35px;
+								opacity: 0.2;
 							}
 							100% {
-								bottom: 30px;
-								opacity: 0.2;
+								opacity: 0.5;
 							}
 						}
 					.vstssfr-events-group-single-thumb {
+						border: none;
 						height: 150px;
+						overflow: hidden;
+						border-radius: 3px;
 						background: #bbbbbb;
 					}
+						.vstssfr-events-group-single-thumb img {
+							width: 100%;
+						}
+					.vstssfr-events-group-single h3 {
+						margin: 0;
+						font-size: 22px;
+						padding: 15px 0;
+						color: #76851c;
+						font-weight: 400;
+					}
 					.vstssfr-events-group-single p {
+						margin: 0;
+						padding: 0;
+						font-size: 14px;
 						color: #424242;
+						text-align: justify;
 						padding: 10px 0 20px 0;
 					}
 					.vstssfr-events-group-single ul {
@@ -1854,8 +1849,8 @@ body {
 			#vstssfr-main-schedule h3 {}
 				#vstssfr-main-schedule-days {
 					display: grid;
-					grid-column-gap: 120px;
-					grid-template-columns: 1fr 1fr;
+					grid-column-gap: 50px;
+					grid-template-columns: 1fr 1fr 1fr;
 				}
 					#vstssfr-main-schedule-days-event {}
 						#vstssfr-main-schedule-days-event h4 {
@@ -1865,7 +1860,7 @@ body {
 							font-weight: 600;
 							text-align: left;
 							position: relative;
-							padding: 0 0 12px 40px;
+							padding: 0 0 5px 40px;
 							letter-spacing: 0.04em;
 							border-bottom: 2px solid #76851c;
 						}
@@ -1887,20 +1882,24 @@ body {
 						}
 							#vstssfr-main-schedule-days-event li {
 								margin: 0;
+								display: grid;
 								font-size: 22px;
 								line-height: 1em;
 								padding: 0 0 2px 0;
+								grid-template-columns: 55px 1fr;
 							}
+								#vstssfr-main-schedule-days-event li > span {}
 								#vstssfr-main-schedule-days-event strong {
-									font-weight: 400;
+									font-weight: 600;
 									position: relative;
 									padding: 0 0 0 30px;
 								}
-									#vstssfr-main-schedule-days-event span {
+									#vstssfr-main-schedule-days-event strong span {
 										display: block;
 										color: #666666;
 										font-weight: 300;
-										padding: 8px 0 0 85px;
+										font-size: 0.75em;
+										padding: 8px 0 25px 0;
 									}
 		#vstssfr-main-subscribe {
 			margin-top: -40px;
@@ -1942,10 +1941,126 @@ body {
 					position: absolute;
 					transform: translateY(-50%);
 				}
-        #vstssfr-main-updates {}
-        #vstssfr-main-media {}
-        #vstssfr-main-joinus {}
-        #vstssfr-main-partners {}
+
+		#vstssfr-main-updates {
+			padding-bottom: 100px;
+		}
+			.vstssfr-main-updates-article {
+				margin-bottom: 60px;
+			}
+				.vstssfr-main-updates-article:before,
+				.vstssfr-main-updates-article:after {
+					bottom: 0;
+					left: 50%;
+					content: '';
+					position: absolute;
+					transform: translateX(-50%);
+				}
+				.vstssfr-main-updates-article:before {
+					height: 1px;
+					width: 125px;
+					bottom: -75px;
+					background: #76851c;
+				}
+				.vstssfr-main-updates-article:after {
+					width: 45px;
+					height: 40px;
+					bottom: -88px;
+					background: url('./img/logos/frankenreads-logo-green.svg') center center no-repeat #ffffff;
+					background-size: 30px 40px;
+				}
+				.vstssfr-main-updates-article h2 {
+					margin: 0;
+					padding: 0;
+					width: 69%;
+					font-size: 38px;
+					font-weight: 600;
+					color: #76851c;
+					line-height: 1.3em;
+				}
+				.vstssfr-main-updates-article h5 {
+					padding: 0;
+					font-size: 24px;
+					color: #999999;
+					font-weight: 300;
+					margin: 5px 0 0 0;
+				}
+					.vstssfr-main-updates-article h5 span {
+						padding: 0 6px;
+					}
+				.vstssfr-main-updates-article-excerpt {
+					display: grid;
+					margin-top: 35px;
+					grid-template-columns: 320px 1fr;
+				}
+				.vstssfr-main-updates-article-excerpt-thumb {
+					width: 310px;
+					height: 310px;
+					overflow: hidden;
+					background: #cccccc;
+				}
+					.vstssfr-main-updates-article-excerpt-thumb img {}
+				.vstssfr-main-updates-article-excerpt-text {
+					padding-left: 34px;
+				}
+					.vstssfr-main-updates-article-excerpt-text p {
+						margin: 0;
+						padding: 0;
+						font-size: 24px;
+						color: #424242;
+						line-height: 36px;
+					}
+						.vstssfr-main-updates-article-excerpt-text p + p {
+							padding-top: 30px;
+						}
+					.vstssfr-main-updates-article-excerpt-text button {
+						margin-top: 30px;
+					}
+
+        #vstssfr-main-media {
+			padding-bottom: 60px;
+			background: url('./img/media-bg.jpg') top center no-repeat;
+			background-size: cover;
+		}
+		#vstssfr-main-joinus {
+			padding-bottom: 60px;
+		}
+			#vstssfr-main-joinus-the {
+				display: grid;
+				grid-column-gap: 120px;
+				grid-template-columns: 1fr 1fr;
+			}
+				#vstssfr-main-joinus-the h4 {
+					margin: 0;
+					padding: 0;
+					font-size: 30px;
+					font-weight: 400;
+					text-align: center;
+				}
+				#vstssfr-main-joinus-the h5 {
+					font-size: 22px;
+					font-weight: 300;
+					padding-left: 20px;
+					position: relative;
+					border-bottom: 2px solid #76851c;
+				}
+					#vstssfr-main-joinus-the h5:after {
+						opacity: 0.5;
+						right: 10px;
+						width: 26px;
+						content: '';
+						bottom: 10px;
+						height: 40px;
+						position: absolute;
+						background: url('./img/logos/frankenreads-logo-green.svg') top center no-repeat;
+						background-size: 26px auto;
+					}
+					#vstssfr-main-joinus-the li {
+						font-size: 18px;
+						padding: 0 0 12px 0;
+					}
+				#vstssfr-main-joinus-the-team {}
+				#vstssfr-main-joinus-the-partners {}
 
     #vstss-frankenreads footer {
 		text-align: center;
