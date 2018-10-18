@@ -34,8 +34,8 @@ get_header();
 							<h3>Welcome to Frankenreads!</h3>
 							<p>Join us for the following events to celebrate the 200th anniversary of the first publication of Mary Shelley’s Frankenstein! All events are free and open to the campus community! We welcome all other visitors!</p>
 							<ul>
-								<li><a href="#" title="Apply to Attend" class="button">Apply to Attend</a></li>
-								<li><a href="#" title="Schedule" class="button">Schedule</a></li>
+								<li><a href="#vstssfr-main-subscribe" title="Apply to Attend" class="button">Apply to Attend</a></li>
+								<li><a href="#vstssfr-main-schedule" title="Schedule" class="button">Schedule</a></li>
 							</ul>
 						</div>
 					</div>
@@ -221,12 +221,9 @@ get_header();
 				<!-- Subscribe -->
 				<section id="vstssfr-main-subscribe">
 					<div class="wrapper">
-						<h3 class="group-title">Subscribe or Sign up</h3>
+						<h3 class="group-title">Apply to Attend</h3>
 						<p>Receive updates about Frankenreads <span>or sign up to attend the reading</span></p>
-						<form>
-							<input>
-							<button class="button">Subscribe</button>
-						</form>
+						<?php echo do_shortcode('[contact-form-7 id="48" title="FraneknSub"]') ?>
 					</div>
 				</section>
 				<!-- Updates -->
@@ -257,8 +254,7 @@ get_header();
 											<?php the_post_thumbnail('large') ?>
 										</div>
 										<div class="vstssfr-main-updates-article-excerpt-text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<?php the_content() ?>
 											<?php //<button class="button">Read on</button> ?>
 										</div>
 									</div>

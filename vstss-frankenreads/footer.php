@@ -27,7 +27,7 @@
 						<li><a href="#" title="VŠTSS Twitter"><i class="icon-ter"></i><span>VŠTSS Twitter</span></a></a></li>
 						<li><a href="#" title="Frankenreads"><i class="icon-frankenreads"></i><span>Frankenreads</span></a></a></li>
 					</ul>
-					<p>&copy; 2018 Frankenreads VŠTSS. All rights reserved.</p>
+					<p>&copy; 2018 Frankenreads VŠTSS. | All rights reserved. | <a href="<?php echo admin_url() ?>" title="WordPress Admin">LogIn</a></p>
 				</div>
 			</footer>
 		</div>

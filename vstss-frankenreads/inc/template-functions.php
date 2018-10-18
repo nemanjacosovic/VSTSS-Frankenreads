@@ -35,3 +35,4 @@ function vsss_frankenreads_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'vsss_frankenreads_pingback_header' );
+add_filter('wpcf7_autop_or_not', '__return_false');
