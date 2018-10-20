@@ -100,7 +100,7 @@ get_header();
 								<h3>Frankenbition</h3>
 								<p>Frankenbition – Opening of the exhibit of miscellaneous art and design artefacts (book covers, comics, posters) entitled Frankenbition designed by TCC students and visitors, inspired by Mary Shelley’s novel. Animation, IT solutions and robots will also be included.<br /><br />The exhibition will present the works exploring the idea of what defines the relationship between technology and humanity.</p>
 								<ul>
-									<li>Date: October 23<sup>rd</sup></li>
+									<li>Date: October 24<sup>th</sup></li>
 									<li>Open: 5 PM</li>
 									<li>Location: TCC Hall (First Floor)</li>
 									<li>Supervisor: Đorđe Popović</li>
@@ -115,7 +115,7 @@ get_header();
 								<h3>Frankenstein 200 years after</h3>
 								<p>Frankenstein 200 years after: a question of authorship - A dramatic enactment of an imaginary interview with Mary Shelley on the success of her novel. Dramatization in English, with students actors in 18th century scene and costume.<br /><br />Starring: <em>Vanja Čolović</em> and <em>Đorđe Kalojević</em><br /><br />Styling and costume: <em>Kristina Bojanović</em><br /><br />Stage: <em>Ilija Ječmenica</em></p>
 								<ul>
-									<li>Date: October 23<sup>rd</sup></li>
+									<li>Date: October 24<sup>th</sup></li>
 									<li>Open: 5:15 PM</li>
 									<li>Location: TCC Hall (First Floor)</li>
 									<li>Supervisor: Vesna Petrović</li>
@@ -130,7 +130,7 @@ get_header();
 								<h3>Frankenmusic</h3>
 								<p>Frankenmusic – live music performance of modern music, inspired by science-fiction or with technological elements.<br />Performing: music duo <strong><em>IN BETWEEN</em></strong>, Dunja Krsmanović, vocal &amp; Aleksandar, guitar.</p>
 								<ul>
-									<li>Date: October 23<sup>rd</sup></li>
+									<li>Date: October 24<sup>th</sup></li>
 									<li>Open: 5:30 PM</li>
 									<li>Location: TCC Hall (First Floor)</li>
 									<li>Supervisor: Ivana Krsmanović</li>
@@ -146,7 +146,7 @@ get_header();
 								<h3>Mary Shelley as a Myth-Maker</h3>
 								<p>A lecture will be illustrated by a set of photographs of Mary Shelley, paper clips and manuscript of the novel by a video projector.<br /><br />A follow-up: a panel discussion. Join us for enthusiastic discussions of the novel!</p>
 								<ul>
-									<li>Date: October 24<sup>th</sup></li>
+									<li>Date: October 25<sup>th</sup></li>
 									<li>Open: 10 AM</li>
 									<li>Location: Room 112 (First Floor)</li>
 									<li>Lecturer: Ivana Krsmanović</li>
@@ -161,7 +161,7 @@ get_header();
 								<h3>Public reading of ‘Frankenstein’</h3>
 								<p>We are inviting you to join the celebrations of the 200th anniversary, we will read Mary Shelley’s novel at TCC Hall on 24th October 2018.<br /><br />Everyone are invited to join the event of public reading Mary Shelley’s classic!</p>
 								<ul>
-									<li>Date: October 24<sup>th</sup></li>
+									<li>Date: October 25<sup>th</sup></li>
 									<li>Open: 11 AM</li>
 									<li>Location: Room 112 (First Floor)</li>
 									<li>Supervisor: Ivana Krsmanović</li>
@@ -200,7 +200,7 @@ get_header();
 								</ul>
 							</div>
 							<div id="vstssfr-main-schedule-days-event">
-								<h4>23<sup>rd</sup> October (Day 2)</h4>
+								<h4>24<sup>th</sup> October (Day 2)</h4>
 								<ul>
 									<li><span>17:00</span> <strong>Frankenbition <span>TCC Hall<br />Supervisor: Đorđe Popović</span></strong></li>
 									<li><span>17:15</span> <strong>Frankenstein 200 years after: a question of authorship <span>TCC Hall<br />Supervisor: Vesna Petrović</span></strong></li>
@@ -209,7 +209,7 @@ get_header();
 								</ul>
 							</div>
 							<div id="vstssfr-main-schedule-days-event">
-								<h4>24<sup>th</sup> October (Day 3)</h4>
+								<h4>25<sup>th</sup> October (Day 3)</h4>
 								<ul>
 									<li><span>10:00</span> <strong>’Mary Shelley as a Myth-Maker: L’écriture féminine Re-visiting the genre <span>Room 112<br />Lecturer: Ivana Krsmanović</span></strong></li>
 									<li><span>11:00</span> <strong>Public reading of ‘Frankenstein’ <span>Room 112</span></strong></li>
@@ -299,7 +299,6 @@ get_header();
 									<li>Nikola Avramović, Informatics in Engineering</li>
 									<li>Kristina Bojanović, Graphic Technology</li>
 									<li>Žarko Nikitović, Electronics and Computing</li>
-									<li>Nemanja Trajković, Information Technology</li>
 								</ul>
 								<h5>Students – technical support</h5>
 								<ul>

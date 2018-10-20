@@ -1471,7 +1471,9 @@ body {}
         }
     }
 
-#vstss-frankenreads {}
+#vstss-frankenreads {
+	overflow: auto;
+}
     #vstss-frankenreads header {
         /* background: #7c925b; */
     }
@@ -2201,6 +2203,7 @@ body {}
    Helper classes
    ========================================================================== */
 .wrapper {
+	height: 100%;
     width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -2338,6 +2341,173 @@ button.button {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+}
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 20px;
+	}
+	#vstssfr-header-masthead {
+		height: 540px;
+		overflow: auto;
+		background: url('./img/vstssfr-header-masthead-01-mobile.jpg') center top no-repeat #7c925b;
+		background-size: cover;
+	}
+	#vstssfr-header-masthead-logos {
+		top: 15px;
+	}
+	#vstssfr-header-masthead-logos-vstss {
+		top: 0px;
+		right: 20px;
+		width: 52px;
+		height: 52px;
+		background: url(./img/logos/vstss-logo-bw.png) top center no-repeat;
+		background-size: 52px 52px;
+	}
+	#vstssfr-header-masthead-logos-frankenreads {
+		left: 20px;
+		width: 125px;
+		height: 55px;
+		background: url('./img/logos/frankenreads-logo-complete-opt-white.svg') top center no-repeat;
+		background-size: 125px 55px;
+	}
+	#vstssfr-header-masthead-quote {
+		top: auto;
+		width: 90%;
+		bottom: 15px;
+	}
+	#vstssfr-header-masthead-quote p {
+		font-size: 18px;
+	}
+	#vstssfr-header-masthead-quote h5 {
+		font-size: 24px;
+		margin-top: 5px;
+		padding-right: 15px;
+	}
+	#vstssfr-header-mainmenu {
+		display: none;
+	}
+	#vstssfr-main-welcome {
+		overflow: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	#vstssfr-main-welcome-posters,
+	#vstssfr-main-welcome-content {
+		order: 2;
+		width: 100%;
+		float: right;
+		display: block;
+	}
+	#vstssfr-main-welcome-posters {
+		display: grid;
+		grid-column-gap: 15px;
+		grid-template-columns: 1fr 1fr;
+	}
+	#vstssfr-main-welcome-posters-two,
+	#vstssfr-main-welcome-posters-solo {
+		width: 100%;
+	}
+	#vstssfr-main-welcome-posters-two-bottom {
+		margin-top: 8px;
+	}
+	#vstssfr-main-welcome-content {
+		order: 1;
+		float: left;
+	}
+	#vstssfr-main-welcome-content h3 {
+		font-size: 36px;
+		line-height: 1em;
+	}
+	#vstssfr-main-welcome-content li {
+		margin-top: 15px;
+	}
+	#vstssfr-main-welcome-content p {
+		padding: 25px 0;
+		line-height: 28px;
+		text-align: justify;
+	}
+	#vstssfr-main-welcome-content ul {
+		margin: 0;
+		padding: 0;
+	}
+	#vstssfr-main-events {
+		background: url('./img/events-bg.jpg') top center no-repeat #9eaf73;
+		background-size: auto 320px;
+	}
+	#vstssfr-main-events-group {
+		grid-template-columns: 1fr;
+	}
+	.vstssfr-events-group-single-thumb {
+		height: auto;
+	}
+	.vstssfr-events-group-single:after {
+		width: 36px;
+		background: url('./img/logos/frankenreads-logo-green.svg') bottom center no-repeat;
+		background-size: 36px auto;
+	}
+	#vstssfr-main-schedule-days {
+		grid-template-columns: 1fr;
+	}
+	#vstssfr-main-schedule-days-event h4 {
+		font-size: 22px;
+		padding: 0 0 5px 10px;
+	}
+	#vstssfr-main-schedule-days-event ul {
+		padding: 20px 0 0 10px;
+	}
+	#vstssfr-main-schedule-days-event li {
+		font-size: 18px;
+	}
+	#vstssfr-main-subscribe form,
+	#vstssfr-main-subscribe button,
+	#vstssfr-main-subscribe input[type=email],
+	#vstssfr-main-subscribe input[type=submit] {
+		width: 100%;
+	}
+	#vstssfr-main-subscribe input[type=email] {
+		padding: 0 20px;
+	}
+	#vstssfr-main-subscribe button,
+	#vstssfr-main-subscribe input[type=submit] {
+		top: auto;
+		right: auto;
+		position: relative;
+		margin: 30px auto 0 auto;
+	}
+	.vstssfr-main-updates-article h2 {
+		width: 100%;
+		font-size: 24px;
+	}
+	.vstssfr-main-updates-article h5 {
+		font-size: 14px;
+	}
+	.vstssfr-main-updates-article-excerpt {
+		grid-template-columns: 1fr;
+	}
+	.vstssfr-main-updates-article-excerpt-text {
+		padding-left: 0;
+		padding-top: 30px;
+	}
+	.vstssfr-main-updates-article-excerpt-text p {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	#vstssfr-main-joinus-the {
+		grid-template-columns: 1fr;
+	}
+	#vstssfr-main-joinus-the ul {
+		padding-left: 0;
+	}
+	#vstssfr-footer-partners li {
+		display: block;
+		margin: 20px 0;
+	}
+	.vstssfr-main-updates-article-excerpt-thumb {
+		width: 100%;
+	}
 }
 
 @media print,
