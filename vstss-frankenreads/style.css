@@ -2058,10 +2058,26 @@ body {}
 						background: url('./img/logos/frankenreads-logo-green.svg') top center no-repeat;
 						background-size: 26px auto;
 					}
-					#vstssfr-main-joinus-the li {
-						font-size: 18px;
-						padding: 0 0 12px 0;
+					#vstssfr-main-joinus-the ul {
+						margin: 0;
 					}
+						#vstssfr-main-joinus-the li {
+							font-size: 18px;
+							padding: 0 0 12px 0;
+						}
+							#vstssfr-main-joinus-the li span {
+								display: block;
+								color: #7f7f7f;
+								font-size: 0.84em;
+							}
+							#vstssfr-main-joinus-the li a {
+								color: #76851c;
+								text-decoration: none;
+							}
+							#vstssfr-main-joinus-the li a:hover {
+								color: #efb86b;
+								text-decoration: underline;
+							}
 				#vstssfr-main-joinus-the-team {}
 				#vstssfr-main-joinus-the-partners {}
 
@@ -2497,9 +2513,6 @@ button.button {
 	}
 	#vstssfr-main-joinus-the {
 		grid-template-columns: 1fr;
-	}
-	#vstssfr-main-joinus-the ul {
-		padding-left: 0;
 	}
 	#vstssfr-footer-partners li {
 		display: block;

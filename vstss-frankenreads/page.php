@@ -285,20 +285,20 @@ get_header();
 								<h4>We are</h4>
 								<h5>Teaching Staff</h5>
 								<ul>
-									<li>Editor-in-chief: Ivana Krsmanović, Ph. D. In English</li>
-									<li>Vesna Petrović, MA in English</li>
-									<li>Mijodrag Tutunović, BSc in Graphic Technology</li>
+									<li>Ivana Krsmanović <span>Ph. D. In English, Editor-in-chief</span></li>
+									<li>Vesna Petrović <span>MA in English</span></li>
+									<li>Mijodrag Tutunović <span>BSc in Graphic Technology</span></li>
 								</ul>
 								<h5>Students – organization</h5>
 								<ul>
-									<li>Editor- in-chief: Ilija Ječmenica, Electrical Engineering</li>
-									<li>Nemanja Ćosović, Information technologies</li>
-									<li>Đorđe Popović, Graphic Technology</li>
-									<li>Vanja Čolović, Information Technology</li>
-									<li>Đorđe Kalojević, Informatics in Engineering</li>
-									<li>Nikola Avramović, Informatics in Engineering</li>
-									<li>Kristina Bojanović, Graphic Technology</li>
-									<li>Žarko Nikitović, Electronics and Computing</li>
+									<li>Ilija Ječmenica <span>Electrical Engineering</span></li>
+									<li>Nemanja Ćosović <span>Information technologies</span></li>
+									<li>Đorđe Popović <span>Graphic Technology</span></li>
+									<li>Vanja Čolović <span>Information Technology</span></li>
+									<li>Đorđe Kalojević <span>Informatics in Engineering</span></li>
+									<li>Nikola Avramović <span>Informatics in Engineering</span></li>
+									<li>Kristina Bojanović <span>Graphic Technology</span></li>
+									<li>Žarko Nikitović <span>Electronics and Computing</span></li>
 								</ul>
 								<h5>Students – technical support</h5>
 								<ul>
@@ -315,16 +315,16 @@ get_header();
 								<h4>Our partners</h4>
 								<h5>Sponsors and partners</h5>
 								<ul>
-									<li>Grafički centar VŠTSS Čačak</li>
-									<li>Ča term</li>
-									<li>Nektar</li>
+									<li><a href="http://vstss.com/" title="Grafički centar VŠTSS Čačak">Grafički centar VŠTSS Čačak</a></li>
+									<li><a href="http://www.ca-term.rs/" title="ČA-Term">ČA-Term</a></li>
+									<li><a href="https://www.nectar.rs/" title="Nectar Group">Nectar Group</a></li>
 									<li>Časovničar Stanojević</li>
-									<li>Atenic komerc</li>
-									<li>Progres</li>
+									<li><a href="http://www.atenic-commerce.com/" title="Atenic commerce">Atenic commerce</a></li>
+									<li><a href="http://www.progres-cacak.rs/" title="Progres Čačak">Progres Čačak</a></li>
 									<li>Vule Resimić</li>
-									<li>KUD Abrašević Čačak</li>
-									<li>Elektrovat enel</li>
-									<li>Gradska biblioteka Vladislav Petković DIS</li>
+									<li><a href="https://www.facebook.com/AbrasevicCacak/" title="KUD Abrašević Čačak">KUD Abrašević Čačak</a></li>
+									<li><a href="https://www.elektrovat.net/" title="Elektrovat Enel">Elektrovat Enel</a></li>
+									<li><a href="http://www.cacak-dis.rs/" title="Gradska biblioteka 'Vladislav Petković DIS'">Gradska biblioteka 'Vladislav Petković DIS'</a></li>
 								</ul>
 							</div>
 						</div>

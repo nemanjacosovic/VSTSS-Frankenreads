@@ -22,10 +22,10 @@
 					</ul>
 					<p>Svetog Save 65, Čačak, Serbia<span><a href="tel:+38132322321" title="Call VŠTSS Čačak">+381 32 322 321</a> | <a href="mailto:office@vstss.com" title="Email VŠTSS Čačak">office@vstss.com</a></span></p>
 					<ul id="vstssfr-footer-socmed">
-						<li><a href="#" title="VŠTSS Instagram"><i class="icon-gram"></i><span>VŠTSS Instagram</span></a></li>
-						<li><a href="#" title="VŠTSS Facebook"><i class="icon-ook"></i><span>VŠTSS Facebook</span></a></li>
-						<li><a href="#" title="VŠTSS Twitter"><i class="icon-ter"></i><span>VŠTSS Twitter</span></a></a></li>
-						<li><a href="#" title="Frankenreads"><i class="icon-frankenreads"></i><span>Frankenreads</span></a></a></li>
+						<li><a href="https://www.instagram.com/explore/tags/vstss/?hl=en" title="VŠTSS Instagram"><i class="icon-gram"></i><span>VŠTSS Instagram</span></a></li>
+						<li><a href="https://www.facebook.com/vstss" title="VŠTSS Facebook"><i class="icon-ook"></i><span>VŠTSS Facebook</span></a></li>
+						<li><a href="https://twitter.com/vstss" title="VŠTSS Twitter"><i class="icon-ter"></i><span>VŠTSS Twitter</span></a></a></li>
+						<li><a href="https://frankenreads.org/" title="Frankenreads"><i class="icon-frankenreads"></i><span>Frankenreads</span></a></a></li>
 					</ul>
 					<p>&copy; 2018 Frankenreads VŠTSS. | All rights reserved. | <a href="<?php echo admin_url() ?>" title="WordPress Admin">LogIn</a></p>
 				</div>
